@@ -2,7 +2,7 @@
 
 This is the repository of my personal website [martinbuberl.com](https://martinbuberl.com/).
 
-It is hosted directly from this repository as a [GitHub Pages](https://pages.github.com/) site.
+It is hosted directly from this repository via [GitHub Pages](https://pages.github.com/).
 
 ## Prerequisites
 
