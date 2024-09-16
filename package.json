@@ -8,13 +8,13 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "node-sass": "^6.0.0",
-    "terser": "^5.7.0"
+    "sass": "^1.78.0",
+    "terser": "^5.32.0"
   },
   "scripts": {
     "build": "npm run build:js && npm run build:css",
     "build:js": "terser docs/content/js/base.js --output docs/content/base.min.js --compress --mangle",
-    "build:css": "node-sass --output-style=compressed docs/content/css/base.scss docs/content/base.min.css"
+    "build:css": "sass docs/content/css/base.scss:docs/content/base.min.css --style=compressed"
   },
   "private": true
 }
